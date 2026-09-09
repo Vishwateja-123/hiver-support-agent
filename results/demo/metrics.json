@@ -1,0 +1,448 @@
+{
+  "status": "SMOKE_TEST_ONLY_NO_HUMAN_GOLD",
+  "threshold": 0.4,
+  "threshold_status": "preset_not_calibrated",
+  "train_sha256": "c57ee7980d6f473b500a1ed8b4222202ff2cdde01969757392ddd9376129906e",
+  "test_sha256": "6a98f480b399d12892432918e810f068ec500818ed1a344334144119f70e9689",
+  "labels_sha256": null,
+  "training_label_source": "human where provided; otherwise weak keyword labels",
+  "systems": {
+    "majority": {
+      "n": 3,
+      "auto_count": 0,
+      "coverage": 0.0,
+      "emitted_sensitive_pattern_count": 0,
+      "note": "Sensitive-pattern count is a lexical diagnostic, not a safety score.",
+      "human_metrics": null,
+      "weak_label_agreement_diagnostic": {
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "macro_f1_supported": 0.0,
+        "per_intent": {
+          "battery_power": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "connectivity": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "software_performance": {
+            "support": 2,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "apps_media": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "account_billing": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "hardware_repair": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "thanks": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "other": {
+            "support": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "confusion_matrix": {
+          "battery_power": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "connectivity": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "software_performance": {
+            "battery_power": 2,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "apps_media": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "account_billing": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "hardware_repair": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "thanks": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "other": {
+            "battery_power": 1,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          }
+        }
+      }
+    },
+    "nearest": {
+      "n": 3,
+      "auto_count": 3,
+      "coverage": 1.0,
+      "emitted_sensitive_pattern_count": 0,
+      "note": "Sensitive-pattern count is a lexical diagnostic, not a safety score.",
+      "human_metrics": null,
+      "weak_label_agreement_diagnostic": {
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.08333333333333333,
+        "macro_f1_supported": 0.3333333333333333,
+        "per_intent": {
+          "battery_power": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "connectivity": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "software_performance": {
+            "support": 2,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666
+          },
+          "apps_media": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "account_billing": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "hardware_repair": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "thanks": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "other": {
+            "support": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "confusion_matrix": {
+          "battery_power": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "connectivity": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "software_performance": {
+            "battery_power": 1,
+            "connectivity": 0,
+            "software_performance": 1,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "apps_media": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "account_billing": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "hardware_repair": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "thanks": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "other": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 1,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          }
+        }
+      }
+    },
+    "agent": {
+      "n": 3,
+      "auto_count": 0,
+      "coverage": 0.0,
+      "emitted_sensitive_pattern_count": 0,
+      "note": "Sensitive-pattern count is a lexical diagnostic, not a safety score.",
+      "human_metrics": null,
+      "weak_label_agreement_diagnostic": {
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.08333333333333333,
+        "macro_f1_supported": 0.3333333333333333,
+        "per_intent": {
+          "battery_power": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "connectivity": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "software_performance": {
+            "support": 2,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666
+          },
+          "apps_media": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "account_billing": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "hardware_repair": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "thanks": {
+            "support": 0,
+            "precision": null,
+            "recall": null,
+            "f1": 0
+          },
+          "other": {
+            "support": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "confusion_matrix": {
+          "battery_power": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "connectivity": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "software_performance": {
+            "battery_power": 1,
+            "connectivity": 0,
+            "software_performance": 1,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "apps_media": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "account_billing": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "hardware_repair": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "thanks": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 0,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          },
+          "other": {
+            "battery_power": 0,
+            "connectivity": 0,
+            "software_performance": 0,
+            "apps_media": 1,
+            "account_billing": 0,
+            "hardware_repair": 0,
+            "thanks": 0,
+            "other": 0
+          }
+        }
+      }
+    }
+  },
+  "judge_status": "not_run",
+  "human_judge_agreement": null
+}
