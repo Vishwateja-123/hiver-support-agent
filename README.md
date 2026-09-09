@@ -84,7 +84,7 @@ The audit exits with code 2 when requirements are missing. Its success is a stru
 
 For a final submission, include the bounded prepared data, human labels, frozen code/policy, generated results, judge records, and agreement output. `data/full` and `results/full` are ignored by default; intentionally add only the bounded deliverables after reviewing them. Do not commit the entire source CSV or credentials. The small corpus and cached evidence make the final metric recomputation practical without a full-dataset download or rerunning the LLM judge. The less-than-15-minute target must be measured on that final bundle.
 
-Publish the repository to your chosen GitHub account, then supply its link and report via the form linked in the assignment. This project has not been published or submitted, and no reviewer access has been granted.
+Publish the repository to your chosen GitHub account, then supply its link and report via the form linked in the assignment. Repository: https://github.com/Vishwateja-123/hiver-support-agent. The project has not been submitted, and the required human evaluation remains incomplete.
 
 ## Files
 
