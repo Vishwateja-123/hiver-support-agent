@@ -6,6 +6,7 @@
   "synthetic_600_pair_integration": "passed; fixture not retained; not real evaluation evidence",
   "human_gold_available": false,
   "real_llm_judge_run": false,
-  "published": false,
-  "submitted": false
+  "published": true,
+  "submitted": false,
+  "repository_url": "https://github.com/Vishwateja-123/hiver-support-agent"
 }
