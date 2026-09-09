@@ -1,0 +1,25 @@
+{
+  "brand": "AppleSupport",
+  "source_sha256": "302aaa20f7dcebe602d143c615b0c4575e7937a396439bb1521b84c838e91b68",
+  "seed": 41,
+  "source_rows": 93,
+  "brand_pairs_before_cap": 13,
+  "max_pairs_soft_cap": 4000,
+  "counts": {
+    "train": 8,
+    "dev": 2,
+    "test": 3
+  },
+  "group_counts": {
+    "train": 6,
+    "dev": 2,
+    "test": 3
+  },
+  "label_status": "unlabelled",
+  "sampling": "seeded group random; user + ancestor + normalized exact duplicate grouping",
+  "files": {
+    "train.jsonl": "c57ee7980d6f473b500a1ed8b4222202ff2cdde01969757392ddd9376129906e",
+    "dev.jsonl": "4b049364943bb876f6d0fa97fa27e517d8ec684f39151db90bff5ec63b23f44e",
+    "test.jsonl": "6a98f480b399d12892432918e810f068ec500818ed1a344334144119f70e9689"
+  }
+}
