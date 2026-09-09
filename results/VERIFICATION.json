@@ -1,0 +1,11 @@
+{
+  "checked_on": "2026-09-09",
+  "python": "3.14.3",
+  "unit_tests_passed": 15,
+  "demo_split_hash_reproduction": "exact_match",
+  "synthetic_600_pair_integration": "passed; fixture not retained; not real evaluation evidence",
+  "human_gold_available": false,
+  "real_llm_judge_run": false,
+  "published": false,
+  "submitted": false
+}
