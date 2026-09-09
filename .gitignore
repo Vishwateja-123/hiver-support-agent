@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+work/
+data/full/
+results/full/
+*.sqlite
+*.zip
